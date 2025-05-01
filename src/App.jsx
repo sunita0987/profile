@@ -8,8 +8,8 @@ const users = [
   {
     name: "Sunita verma",
     title: "Frontend Developer",
-    image: "src/assets/images/front-end.jpg",
-    email: "sunita@0987546@gmail.com",
+    image: "src/assets/images/sunita.jpg",
+    email: "sunita0987546@gmail.com",
     location: "Hisar",
   },
   {

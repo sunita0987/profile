@@ -1,7 +1,6 @@
 import { useState } from "react";
 import React from "react";
 import "./App.css";
-import Profile from "./components/ProfileCard";
 import ProfileCard from "./components/ProfileCard";
 
 const users = [
@@ -55,7 +54,7 @@ function App() {
   return (
     <>
       <div className="min-h-screen bg-gray-100 p-5">
-        <h1 className="text-3xl font-bold mb-6 text-center ">Team Profiles</h1>
+        <h1 className="text-3xl font-bold mb-6 text-center "> My profiles</h1>
         <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {users.map((user, index) => (
             <ProfileCard
@@ -69,7 +68,6 @@ function App() {
           ))}
         </div>
       </div>
-      <Profile />
     </>
   );
 }
